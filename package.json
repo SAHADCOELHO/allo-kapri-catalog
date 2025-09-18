@@ -1,15 +1,16 @@
 {
-  "name": "allo-kapri-root",
+  "name": "allo-kapri-backend",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "NODE_ENV=development node \"allo-kapri-fixed-v6 22/server/index.js\"",
-    "start": "NODE_ENV=production node \"allo-kapri-fixed-v6 22/server/index.js\""
+    "dev": "NODE_ENV=development node index.js",
+    "start": "NODE_ENV=production node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "node-vibrant": "^3.1.6",
-    "xlsx": "^0.18.5",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
   }
 }
